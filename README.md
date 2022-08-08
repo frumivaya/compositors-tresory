@@ -3,8 +3,7 @@
 # Compositor Tresory with React and Node
 
 Compositor Tresory is a sample application that allows you to look up compositors by name, view the details of an compositor,
-call, text, or email an compositor, and navigate up and down the org chart.
-
+ an compositor, and navigate up and down the org chart.
 This version of Compositor Tresory is built with [React](http://facebook.github.io/react/) and [Node.js]().
 
 ![alt tag](assets/directory_search.png)
