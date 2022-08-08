@@ -1,3 +1,8 @@
+// "Franz Peter", "lastName": "Schubert", 
+// "Robert Alexander", "lastName": "SchÏumann", 
+// "Jakob Ludwig Felix", "lastName": "MendelsÏsohn 
+// "Johannes ", "lastName": "Brahms  ", "managerId"
+
 var compositors = [
     {
         "id": 0,
