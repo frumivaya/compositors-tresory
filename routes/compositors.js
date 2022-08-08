@@ -23,6 +23,8 @@ var compositors = [
         "story": "shopin love bamba"
     },
 
+
+    
 ];
 
 exports.findAll = function (req, res, next) {
