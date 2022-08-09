@@ -18,7 +18,6 @@ var App = React.createClass({
     componentDidMount: function() {
         router.addRoute('', function() {
             // step (1) first in the flow
-            // slide page see react slide page
             this.slidePage(<HomePage key="list" searchHandler={this.searchHandler} searchKey={this.state.searchKey} compositors={this.state.compositors}/>);
         }.bind(this));
         router.addRoute('compositors/:id', function(id) {

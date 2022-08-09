@@ -1,6 +1,5 @@
-// "Johannes ", "lastName": "Brahms  ", "managerId"
-
-var compositors = [
+// this data was in sql here for speeding the development
+const compositors = [
     {
         "id": 0,
         "firstName": "Frédéric",
@@ -50,10 +49,11 @@ var compositors = [
 ];
 
 exports.findAll = function (req, res, next) {
-    var name = req.query.name;
+    const name = req.query.name;
     if (name) {
         res.send(compositors.filter(function (compositor) {
-            return (compositor.firstName + ' ' + compositor.lastName).toLowerCase().indexOf(name.toLowerCase()) > -1;
+            const compositorSearchabaleCharcater = (compositor.firstName + ' ' + compositor.lastName + ' '+ compositor.story);
+            return compositorSearchabaleCharcater.toLowerCase().indexOf(name.toLowerCase()) > -1;
         }));
     } else {
         res.send(compositors);
@@ -61,6 +61,6 @@ exports.findAll = function (req, res, next) {
 };
 
 exports.findById = function (req, res, next) {
-    var id = req.params.id;
+    const id = req.params.id;
     res.send(compositors[id]);
 };
