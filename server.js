@@ -1,4 +1,4 @@
-var express = require('express'),
+const express = require('express'),
     compositors = require('./routes/compositors'),
     app = express();
 
