@@ -10,7 +10,7 @@ var CompositorPage = React.createClass({
     render: function () {
         return (
             <div className={"page " + this.props.position}>
-                <window.Header text="Compositor" back="true" />
+                <window.Header text="מלחין" back="true" />
                 <div className="card">
                     <ul className="table-view">
                         <li className="table-view-cell media">
@@ -32,7 +32,7 @@ var CompositorPage = React.createClass({
                           
                                 <span className="media-object pull-left icon icon-call"></span>
                                 <div className="media-body">
-                                 sipur hayava
+                                 סיפור חייו
                                     <p>{this.state.compositor.story}</p>
                                 </div>
                             

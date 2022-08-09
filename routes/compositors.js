@@ -1,6 +1,3 @@
-// "Franz Peter", "lastName": "Schubert", 
-// "Robert Alexander", "lastName": "SchÏumann", 
-// "Jakob Ludwig Felix", "lastName": "MendelsÏsohn 
 // "Johannes ", "lastName": "Brahms  ", "managerId"
 
 var compositors = [
@@ -15,15 +12,40 @@ var compositors = [
         "story": "shopin love bamba he was going to the makolet here good song and say why i will not write my self a song,then papa dafak alav trahot amar lo ma nira leha ya frenk homo sexual"
     }, {
         "id": 1,
-        "firstName": "Frédéric",
-        "lastName": "Chopin",
+        "firstName": "Franz Peter",
+        "lastName": "Schubert",
         "title": "Polish composer",
         "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouXyI65VlECFw3Pj40Q9x_dxQyjmlXR6IwYg4NzHC&s",
         "dateOfBirth": "1810",
         "story": "shopin love bamba"
     },
-
-
+    {
+        "id": 2,
+        "firstName": "Robert Alexander",
+        "lastName": "SchÏumann",
+        "title": "מלחין גרמני",
+        "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Portrait_of_Robert_Schumann.jpg/300px-Portrait_of_Robert_Schumann.jpg",
+        "dateOfBirth": "1810",
+        "story": "shopin love bamba"
+    },
+    {
+        "id": 3,
+        "firstName": "Jakob Ludwig Felix",
+        "lastName": "MendelsÏsohn",
+        "title": "Polish composer",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouXyI65VlECFw3Pj40Q9x_dxQyjmlXR6IwYg4NzHC&s",
+        "dateOfBirth": "1810",
+        "story": "shopin love bamba"
+    },
+    {
+        "id": 4,
+        "firstName": "Jacques",
+        "lastName": "Offenbach",
+        "title": "Polish composer",
+        "pic": "https://jewish-music.huji.ac.il/sites/default/files/biographie/Offencolor.jpg",
+        "dateOfBirth": "1810",
+        "story": "shopin love bamba"
+    },
     
 ];
 

@@ -6,7 +6,7 @@ var HomePage = React.createClass({
         return (
             
             <div className={"page " + this.props.position}>
-                <Header text="Compositor Tresory" back="false" />
+                <Header text="אוצר המלחינים" back="false" />
                 {/* (2) step  */}
                 <window.SearchBar searchKey={this.props.searchKey} searchHandler={this.props.searchHandler} />
                 <div className="content">
